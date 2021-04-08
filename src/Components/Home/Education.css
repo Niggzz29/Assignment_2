@@ -1,0 +1,22 @@
+.eduTitle {
+    font-weight: bold;
+    color: "black";
+    padding-left: 220px;
+    padding-top: 95px;
+}
+
+.neusoft {
+    padding-left: 220px;
+    padding-top: 60px;
+}
+
+.bachelor {
+    padding-left: 221px;
+    color: rgb(158, 158, 154);
+}
+
+.date {
+    padding-left: 220px;
+    padding-top: 15px;
+    color: rgb(158, 158, 154);
+}

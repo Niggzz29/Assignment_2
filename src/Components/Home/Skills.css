@@ -1,0 +1,33 @@
+.skills {
+    padding-top: 50px !important;
+    padding-left: 220px;
+    font-weight: bold;
+}
+
+.programming {
+    padding-top: 120px;
+    padding-right: 10px !important;
+}
+
+.list1 {
+    float: left;
+    width: 20%;
+    padding-left: 164px;
+}
+
+.list2 {
+    float: right;
+    width: 40%;
+    padding-top: 80px;
+    padding: 10px 120px;
+}
+
+.list-1:before {
+    content: "\2705" !important;
+    margin-right: 5px;
+}
+
+.list-2:before {
+    content: "\2705" !important;
+    margin-right: 5px;
+}

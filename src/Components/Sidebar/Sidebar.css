@@ -1,0 +1,35 @@
+.button {
+    justify-content: center;
+    align-self: center;
+    color: rgb(131, 129, 124);
+    align-content: center;
+    align-items: center;
+    display: grid;
+    padding-left: 30%;
+    top: 20px;
+    text-align: center;
+    color: cornsilk;
+}
+
+.sidebar {
+    display: flex;
+    background-color: rgb(255, 190, 51);
+    width: 160px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    flex-wrap: wrap;
+}
+
+a {
+    font-family: Tahoma, sans-serif;
+    padding-top: 10px;
+    color: #5484dc !important;
+}
+
+a:hover {
+    color: rgb(240, 242, 177) !important;
+    text-decoration: none !important;
+}

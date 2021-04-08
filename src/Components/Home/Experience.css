@@ -1,0 +1,32 @@
+.experience {
+    padding-top: 30px;
+    padding-left: 120px;
+    font-weight: bold;
+}
+
+.github-1 {
+    padding-left: 128px !important;
+    padding-top: 40px;
+}
+
+.text {
+    padding-left: 132px;
+    padding-top: 28px;
+}
+
+.opensource, .software {
+    padding-left: 128px;
+    padding-top: 40px;
+}
+
+.gray {
+    color: rgb(158, 158, 154);
+    padding-left: 128px;
+}
+
+.orange, .orange-1, .orange-2 {
+    font-weight: bold;
+    color: rgba(255, 167, 5, 0.918);
+    padding-top: 45px;
+}
+

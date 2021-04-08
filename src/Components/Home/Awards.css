@@ -1,0 +1,21 @@
+.awards-title {
+    padding-left: 235px !important;
+    padding-top: 100px !important;
+    font-weight: bold;
+}
+
+.list-awards {
+    list-style: none;
+    padding-left: 235px;
+    padding-top: 30px;
+}
+
+li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+li:before {
+    content: "\26F9" !important;
+    margin-right: 5px; 
+}

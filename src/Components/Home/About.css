@@ -1,0 +1,31 @@
+.lorem {
+    padding-left: 210px;
+    padding-top: 95px;
+}
+
+.number {
+    padding-left: 210px;
+    color: rgb(158, 158, 154);
+}
+
+.about {
+    padding-left: 210px;
+    color: rgb(158, 158, 154);
+}
+
+.linkedin {
+    padding-left: 210px;
+    padding-top: 35px;
+    font-size: 30px;
+}
+
+.github {
+    padding-left: 10px !important;
+    font-size: 30px;
+}
+
+.orange {
+    font-weight: bold;
+    color: rgba(255, 167, 5, 0.918);
+    padding-top: 45px;
+}
