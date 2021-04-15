@@ -1,25 +1,9 @@
 import React, { useState } from "react";
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import axios from "axios";
-import { Component } from "react";
 import "./Skills.css";
+import ModalSkillsDetail from "../../Components/libs/Modal.js";
 
-const ModalSkillsDetail = (props) => {
-    console.log("props", props);
-    return (
-      <Modal isOpen={props.modal} toggle={props.toggle}>
-        <ModalHeader toggle={props.toggle}>{props.children}</ModalHeader>
-        <ModalBody>{props.name}</ModalBody>
-        <ModalFooter>
-          <Button color="secondary" onClick={props.toogle}>
-            Close
-          </Button>
-        </ModalFooter>
-      </Modal>
-    );
-  };
-  
-  let SkillsComponent = () => {
+const SkillsComponent = () => {
     const [isOpen, setIsOpen] = useState("");
     const [modalAttribute, setModalAttribute] = useState("");
   
@@ -56,9 +40,12 @@ const ModalSkillsDetail = (props) => {
           isOpen={isOpen}
           name={"efefj"}
         >
-        <h1 className="skills">SKILLS</h1>
-        <h4 className="programming">PROGRAMMING LANGUAGES & TOOLS</h4>
         </ModalSkillsDetail>
+       <button>Skills {modalAttribute.Skills}</button>
+       <h1 className="skills">SKILLS</h1>
+        <h4 className="programming">PROGRAMMING LANGUAGES & TOOLS</h4>
+        
+        
         <ul className="list1">
           {listAwards.map((v) => {
             return <li className="list-1" onClick={() => onChangeModal(v)}>{v}</li>;
